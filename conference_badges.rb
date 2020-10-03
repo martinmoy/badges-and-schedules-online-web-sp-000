@@ -23,4 +23,5 @@ def printer (array)
   assign_rooms(array).each do |room_assignments|
     puts room_assignments
   end
+  binding.pry
 end
